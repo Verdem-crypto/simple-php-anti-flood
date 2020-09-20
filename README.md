@@ -1,5 +1,7 @@
 # Simple PHP Anti-Flood
+
 *INTRODUCTION*
+
 Simply take the code contained in the "index.php" file and paste it at the top of your index (php) file.
 
 Example:
@@ -16,5 +18,7 @@ if($_SESSION['last_session_request'] > time() - 2){
 $_SESSION['last_session_request'] = time();
 ?>
 /YOUR CODE HERE\
+
 *PERSONALIZE*
+
 You can modify the link and the requests number.
